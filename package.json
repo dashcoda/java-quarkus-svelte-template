@@ -4,7 +4,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv src/main/resources/META-INF/resources",
+    "start": "sirv src/main/resources/META-INF/resources --port 5173",
     "validate": "svelte-check"
   },
   "devDependencies": {
